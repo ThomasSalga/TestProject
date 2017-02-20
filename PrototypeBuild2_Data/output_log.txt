@@ -1,0 +1,55 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 530 (ID=0x191b)
+    Vendor:   Intel
+    VRAM:     2111 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.051 seconds
+Platform assembly: D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\GCU\Projects and Training\CourseWork\IP1\TowerDefencePvsZ\PrototypeBuild2_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.651063 ms
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:INTERNAL_get_color (UnityEngine.Color&)
+  at UnityEngine.SpriteRenderer.get_color () [0x00000] in <filename unknown>:0 
+  at Enemy+<HitFeedback>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 15.881118 ms
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 195.
+Total: 0.250469 ms (FindLiveObjects: 0.017777 ms CreateObjectMapping: 0.013827 ms MarkObjects: 0.197136 ms  DeleteObjects: 0.020543 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.391111 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 368.
+Total: 0.206222 ms (FindLiveObjects: 0.019358 ms CreateObjectMapping: 0.013827 ms MarkObjects: 0.163950 ms  DeleteObjects: 0.008691 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.208891 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 198.
+Total: 0.457877 ms (FindLiveObjects: 0.027259 ms CreateObjectMapping: 0.024098 ms MarkObjects: 0.371753 ms  DeleteObjects: 0.033185 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2e4 -> priority: 1 
+  Thread -> id: 3a1c -> priority: 1 
